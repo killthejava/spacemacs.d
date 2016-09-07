@@ -221,4 +221,4 @@ Licencia
 ========
 
 <br>
-Liberado bajo licencia GPLv3.
+Liberado bajo licencia MIT.
