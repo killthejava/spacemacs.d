@@ -34,13 +34,10 @@ Este repositorio contiene mis archivos de configuración para [Spacemacs](http:/
 
 <br>
  * PHP, Python y Javascript (`js2-mode`).
- * React.
  * Versionado con `version-control` y `git` (Magit).
  * Snippets con `yasnippet` y `auto-yasnippet`.
  * `ag` para búsquedas en proyectos.
- * Dockerfiles.
  * Sass con `scss-mode`.
- * `nginx-mode`.
 
 <br>
 El archivo también incluye una configuración genérica para `org-mode`. En el caso de que quieras forkear esta configuración tené en cuenta los pasos extra de configuración en la secciones [Dependencias](#dependencias) y [Configuración](#configuración).
@@ -92,17 +89,11 @@ Estos paquetes se instalan globalmente:
 ```
 
 <br>
-React
------
-
-<br>
-El layer `react` requiere los siguientes paquetes:
+Para chequeo de sintaxis utilizamos `eslint`. El listado de paquetes necesarios es el siguiente:
 
 <br>
  * eslint (sintaxis)
  * eslint-plugin-import
- * eslint-plugin-react
- * eslint-plugin-jsx-a11y
  * esling-config-airbnb (configuración genérica de [Airbnb](https://github.com/airbnb/javascript))
 
 <br>
@@ -110,15 +101,7 @@ Estos paquetes son simplemente para configurar `eslint` y también se instalan g
 
 <br>
 ``` shell
- $ sudo npm install -g eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-airbnb
-```
-
-<br>
-También instalo `babel-eslint` para poder utilizar `decorators` sin tanto problema:
-
-<br>
-``` shell
- $ sudo npm install -g babel-eslint
+ $ sudo npm install -g eslint eslint-plugin-import eslint-config-airbnb
 ```
 
 <br>
